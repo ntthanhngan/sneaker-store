@@ -14,7 +14,7 @@ const ports = process.env.PORT || 3001;
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: "https://sneaker-store-ethe4l07c-ntthanhngan.vercel.app",
+  origin: "https://sneaker-store-seven.vercel.app",
   credentials: true,
   methods: "POST, GET, PUT"
 }))
