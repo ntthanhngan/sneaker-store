@@ -40,7 +40,7 @@ function RouterComponent(props) {
     async function fetchAllProducts(){
       try {
         const paramString = queryString.stringify(filters)
-        const requestUrl = `http://localhost:3001/products?${paramString}`
+        const requestUrl = `https://sneaker-store-api.onrender.com/products?${paramString}`
         const response = await fetch(requestUrl)
 
         const responseJSON = await response.json()
