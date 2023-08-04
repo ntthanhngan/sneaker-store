@@ -62,7 +62,7 @@ function RouterComponent(props) {
 
   //authorize
   useEffect(()=>{
-    axios.get('http://localhost:3001/users')
+    axios.get('https://sneaker-store-api.onrender.com/users')
     .then(res=>{
         if(res.data.status === "Success"){
             setAuth(true)
