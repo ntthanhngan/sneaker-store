@@ -1,0 +1,44 @@
+/* TOPBAR SECTION*/
+.topbar{
+    background: #e7e7e7;
+    padding: 8px 40px;
+
+    .topbar__social-list, .topbar__links{
+        display: flex;
+        align-items: center;
+
+        li{
+            a, span{
+                padding: 0 8px;
+                font-size: 0.9rem;
+            }
+        }
+        
+    }
+}
+/*---------------*/
+
+/*NAVBAR*/
+.nav-bar{
+    background-color: darkcyan;
+    min-height: 60px;
+    padding: 0 40px;
+
+    .navbar__menu, .navbar__search{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li{
+            a{
+                padding: 0 8px;
+                font-size: 1rem;
+            }
+        }
+
+        input{
+            height: 30px;
+            border-radius: 3px;
+        }
+    }
+}

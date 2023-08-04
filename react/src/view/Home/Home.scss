@@ -1,0 +1,75 @@
+.hero{
+
+    .banner {
+        min-height: 100vh;
+        background-image: url(../../../public/banner.jpg);
+        background-position: top right;
+        background-size: 100vh;
+        animation: animateBackground 20s linear infinite;
+
+        a{
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-40%, -50%);
+
+            border-radius: 3px;
+            border: none;
+
+            padding: 10px 20px;
+            width: 150px;
+
+            text-transform: uppercase;
+            font-family: fantasy;
+            font-size: 16px;
+            letter-spacing: 2px;
+
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+
+
+            &:hover{
+                background-color: #c7c7c7;
+            }
+        }
+    }
+      
+    @keyframes animateBackground {
+        0% {
+            background-position: top right;
+        }
+        20% {
+            background-position: 80% 20%; 
+        }
+        80% {
+            background-position: 20% 80%; 
+        }
+        100% {
+            background-position: top right;
+        }
+    }
+    .slide-1{
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        width: inherit;
+        justify-content: center;
+
+        .slide-item{
+            text-transform: uppercase;
+            border-right: 1px solid #c7c7c7;
+
+            padding-right: 30px;
+            margin: 10px;
+            /* font-family: fantasy;
+            letter-spacing: 1px; */
+            font-weight: bold;
+
+            &:last-child{
+                border: none    ;
+            }
+        }
+    }
+}

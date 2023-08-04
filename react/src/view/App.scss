@@ -1,0 +1,76 @@
+@import "~/node_modules/bootstrap/scss/bootstrap";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-size: 17px;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 18px 0 !important;
+    text-align: center;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    min-height: 100vh;
+}
+
+input{
+    border: 1px solid #e7e7e7;
+}
+
+.container-fluid{
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+
+    &:hover{
+        color: inherit !important;
+    }
+}
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    li{
+        list-style: none;
+    }
+}
+
+/* SCROLLBAR CUSTOMIZE */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: grey;   
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkgrey; 
+}
+/*--------------*/
+
+
+
+
+
