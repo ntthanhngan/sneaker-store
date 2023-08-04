@@ -25,14 +25,14 @@ function Home(props) {
                 <div className="slide-item">Interesting promo & deals</div>
                 <div className="slide-item">30 DAYS MONEY-BACK GUARANTEE</div>
             </div>
-            <div className="slide-2">
+            {/* <div className="slide-2">
                 <h4>New products</h4>
                 <div className="slide-products">
                     <div className="item">
                         <h5></h5>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
