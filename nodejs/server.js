@@ -14,7 +14,7 @@ const ports = process.env.PORT || 3001;
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: "http://localhost:3000",
+  origin: "https://sneaker-store-api.onrender.com",
   credentials: true,
   methods: "POST, GET, PUT"
 }))
