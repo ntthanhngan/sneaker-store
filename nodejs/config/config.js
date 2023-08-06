@@ -1,7 +1,7 @@
 const Sequilize = require('sequelize');
 
 const sequilize = new Sequilize('sneakerstore', 'root', '',{
-    host: 'localhost',
+    host: 'sneaker-store-api.onrender.com/',
     dialect: 'mysql'
 })
 
