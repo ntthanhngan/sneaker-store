@@ -1,7 +1,7 @@
 const Sequilize = require('sequelize');
 
 const sequilize = new Sequilize('sneakerstore', 'root', '',{
-    host: 'localhost',
+    host: '0.0.0.0',
     dialect: 'mysql'
 })
 
